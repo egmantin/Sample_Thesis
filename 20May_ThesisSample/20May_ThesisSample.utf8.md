@@ -23,13 +23,7 @@ output:
     pandoc_args: [ "--csl", "apa7.csl" ]
 ---
 
-```{r global_options, include=FALSE}
-## This saves you from having to do this for every chunk
-knitr::opts_chunk$set(fig.path = 'figures/',
-                      echo = FALSE, 
-                      warning = FALSE, 
-                      message = FALSE)
-```
+
 
 
 <!-- Abstract -->
@@ -106,8 +100,14 @@ Acknowledge those acknowledgable individuals and things.
 
 \chapter{INTRODUCTION}
 
-```{r, child="Chapter1.Rmd"}
-```
+
+\doublespacing
+
+Write your Chapter 1 in this file. Generally this chapter is the introduction. We may have several citations [@RCoreTeam; @dissertateUSU]. Go ahead and erase all the text in this chapter (and the other chapter files, as they are just trying to fill up space for the example). Just keep the `\\doublespacing` at the beginning of this document.
+
+\lipsum
+
+
 
 
 <!-- Chapter 2 -->
@@ -118,8 +118,12 @@ Acknowledge those acknowledgable individuals and things.
 
 \chapter{Chapter 2's Title}
 
-```{r, child="Chapter2.Rmd"}
-```
+
+\doublespacing
+
+Write your Chapter 2 in this file. Go ahead and erase all the text in this chapter (and the other chapter files, as they are just trying to fill up space for the example)
+
+\lipsum
 
 
 <!-- Chapter 3 -->
@@ -130,8 +134,12 @@ Acknowledge those acknowledgable individuals and things.
 
 \chapter{Chapter 3's Title}
 
-```{r, child="Chapter3.Rmd"}
-```
+
+\doublespacing
+
+Write your Chapter 3 in this file. Go ahead and erase all the text in this chapter (and the other chapter files, as they are just trying to fill up space for the example)
+
+\lipsum
 
 
 <!-- Chapter 4 -->
@@ -142,8 +150,12 @@ Acknowledge those acknowledgable individuals and things.
 
 \chapter{Chapter 4's Title}
 
-```{r, child="Chapter4.Rmd"}
-```
+
+\doublespacing
+
+Write your Chapter 4 in this file. Go ahead and erase all the text in this chapter (and the other chapter files, as they are just trying to fill up space for the example)
+
+\lipsum
 
 
 <!-- Chapter 5 -->
@@ -154,8 +166,12 @@ Acknowledge those acknowledgable individuals and things.
 
 \chapter{Chapter 5's Title}
 
-```{r, child="Chapter5.Rmd"}
-```
+
+\doublespacing
+
+Write your Chapter 5 in this file. Go ahead and erase all the text in this chapter (and the other chapter files, as they are just trying to fill up space for the example)
+
+\lipsum
 
 
 <!-- References -->
